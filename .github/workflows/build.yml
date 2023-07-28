@@ -8,7 +8,7 @@ on:
 jobs:
   sonarcloud:
     name: SonarCloud
-    runs-on: ubuntu-latest-20.08
+    runs-on: ubuntu-latest-20.09
     steps:
       - uses: actions/checkout@v2
         with:
